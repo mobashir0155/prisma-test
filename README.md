@@ -8,3 +8,9 @@ First, pull matser:
 npm i
 npm run start
 ```
+
+# Generate schema
+
+```bash
+npx prisma migrate dev --name init
+```
